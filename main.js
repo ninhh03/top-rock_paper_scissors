@@ -64,8 +64,8 @@ function trackScore(result) {
 }
 
 function playGame() {
-    computerChoice = getComputerChoice()
-    humanChoice = getHumanChoice()
+    let computerChoice = getComputerChoice()
+    let humanChoice = getHumanChoice()
     let result = playRound(computerChoice, humanChoice)
 
     if(humanChoice === "Choose again") {
